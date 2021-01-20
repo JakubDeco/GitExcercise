@@ -5,6 +5,7 @@ import java.util.regex.Pattern;
 public class WithRegex {
     public static void main(String[] args) {
         System.out.println(isDigit("gs8"));
+        System.out.println(isDigit("1"));
     }
     /**method compares parameter String with pattern*/
     public static boolean isDigit(String s) {
